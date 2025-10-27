@@ -826,7 +826,7 @@
                 });
                 
                 items.text = library:create( "TextLabel" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     TextColor3 = rgb(178, 178, 178);
                     BorderColor3 = rgb(0, 0, 0);
                     Text = cfg.name;
@@ -955,7 +955,7 @@
                 });
                 
                 items[ "text" ] = library:create( "TextLabel" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     TextColor3 = rgb(178, 178, 178);
                     BorderColor3 = rgb(0, 0, 0);
                     Text = cfg.name;
@@ -1215,7 +1215,7 @@
                     });
                     
                     items.inner_text = library:create( "TextLabel" , {
-                        FontFace = Font.fromId(8836875837);
+                        FontFace = Font.fromId(7044269838);
                         TextColor3 = rgb(178, 178, 178);
                         BorderColor3 = rgb(0, 0, 0);
                         Text = "Combat";
@@ -1317,7 +1317,7 @@
 
             function cfg.render_option(text)
                 local button = library:create( "TextButton" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     TextColor3 = rgb(178, 178, 178);
                     BorderColor3 = rgb(0, 0, 0);
                     Text = text;
@@ -1458,7 +1458,7 @@
                 });
 
                 items.text = library:create( "TextLabel" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     TextColor3 = rgb(178, 178, 178);
                     BorderColor3 = rgb(0, 0, 0);
                     Text = cfg.name;
@@ -1841,7 +1841,7 @@
                     });
                     
                     library:create( "TextLabel" , {
-                        FontFace = Font.fromId(8836875837);
+                        FontFace = Font.fromId(7044269838);
                         TextColor3 = rgb(178, 178, 178);
                         BorderColor3 = rgb(0, 0, 0);
                         Text = cfg.name;
@@ -2008,7 +2008,7 @@
                 });
                 
                 items[ "textbox" ] = library:create( "TextBox" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     Active = false;
                     Selectable = false;
                     PlaceholderText = cfg.placeholder;
@@ -2109,7 +2109,7 @@
             local items = cfg.items; do 
                 -- Component
                     items.text_label = library:create( "TextButton" , {
-                        FontFace = Font.fromId(8836875837);
+                        FontFace = Font.fromId(7044269838);
                         AutoButtonColor = false;
                         TextColor3 = rgb(178, 178, 178);
                         BorderColor3 = rgb(0, 0, 0);
@@ -2187,7 +2187,7 @@
                     
                     for _,option in options do
                         local name = library:create( "TextButton" , {
-                            FontFace = Font.fromId(8836875837);
+                            FontFace = Font.fromId(7044269838);
                             AutoButtonColor = false;
                             TextColor3 = rgb(178, 178, 178);
                             BorderColor3 = rgb(0, 0, 0);
@@ -2415,7 +2415,7 @@
                 });
                 
                 items[ "button_text" ] = library:create( "TextLabel" , {
-                    FontFace = Font.fromId(8836875837);
+                    FontFace = Font.fromId(7044269838);
                     TextColor3 = rgb(178, 178, 178);
                     BorderColor3 = rgb(0, 0, 0);
                     Text = cfg.name;
@@ -2508,7 +2508,7 @@
                     }); cfg.data_store[#cfg.data_store + 1] = button;
 
                     local name = library:create( "TextLabel" , {
-                        FontFace = Font.fromId(8836875837);
+                        FontFace = Font.fromId(7044269838);
                         TextColor3 = rgb(72, 72, 73);
                         BorderColor3 = rgb(0, 0, 0);
                         Text = option_data;
@@ -2648,7 +2648,7 @@
 				});
 				
 				local misc_text = library:create("TextLabel", {
-					FontFace = Font.fromId(8836875837);
+					FontFace = Font.fromId(7044269838);
 					Parent = inline;
 					LineHeight = 1.75;
 					TextColor3 = rgb(255, 255, 255);
